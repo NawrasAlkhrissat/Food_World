@@ -1,0 +1,158 @@
+form {
+    margin: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    background-image: url('./img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    font-style: italic;
+    color: rgb(255, 188, 5);
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+label {
+    margin-top: 9px;
+    margin-right: 5px;
+}
+
+
+button {
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: none;
+    color: rgb(159, 4, 4);
+    height: 35px;
+    width: 100px;
+    align-self: center;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: red;
+    color: black;
+}
+
+label {
+    align-self: center;
+    font-size: x-large;
+}
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 500px;
+    margin-bottom: 5px;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 500px;
+    margin-bottom: 5px;
+}
+
+.the {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 500px;
+
+}
+
+div {
+
+    width: 250px;
+    height: 245px;
+
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+select {
+    background-color: none;
+    color: rgb(159, 4, 4);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 8px;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-align-last: center;
+    margin-right: 10px;
+    margin-top: 8px;
+    height: 40px;
+    width: 225px;
+}
+
+.dis{
+    width: 250px;
+    height: 460px;
+    border-radius: 25px;
+}
+
+.dis:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+
+    background-color: rgba(0, 0, 0,.5);
+    font-style: italic;
+    color: rgb(255, 188, 5);
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.nana {
+    margin-left: 700px;
+    margin-top: 10px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+p{
+    color: rgb(255, 188, 5);
+    background-color: rgba(0, 0, 0,.5);
+}
+
+.non{
+    display: none;
+}
